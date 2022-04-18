@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+   
+}
+
+body {
+    background-color: #040F18;
+}
+.logo{
+	display: flex;
+	align-items: top;
+	width: 100px;
+	height: 110px;
+	padding: 0;
+
+}
+
+
+.active {
+	color: #841617;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+	color: whitesmoke;
+    background-color: #040F18
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+}
+
+.nav-links li {
+	margin: 0 30px;
+}
+
+a{
+	position: relative;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 40px 0;
+	color: whitesmoke;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.3s;
+	letter-spacing: 4px;
+    border-radius: 50px;
+}
+
+a:hover {
+	background: #841617;
+	color: whitesmoke;
+	box-shadow: 0 0 5px #841617,
+				0 0 25px #841617,
+				0 0 50px #841617,
+				0 0 200px #841617;
+		}
+
+body {
+    padding: 10px;
+    background-color: #040E17;
+    margin-top: 170px;
+    
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+.box{
+    padding: 10px;
+}
+    footer {
+        align-items: center;
+        width: 100%;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(11, 11, 46, 1) 48%, rgba(238, 210, 214, 1) 100%, rgba(0, 212, 255, 1) 100%);
+        padding: 50px 0 30px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .footer-row {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        color: rgb(162, 163, 162);
+    }
+
+    .footer-col {
+        flex-basis: 25%;
+        padding: 10px;
+    }
+
+    .logo2 {
+        width: 90px;
+        margin-bottom: 5px;
+    }
+
+    .logo11 {
+        width: 50px;
+        margin: 1%;
+        margin-bottom: 5px;
+    }
+
+    .footer-col h2 {
+        margin-left: 10px;
+        width: fit-content;
+        margin-bottom: 1px;
+        position: relative;
+    }
